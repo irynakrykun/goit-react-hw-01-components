@@ -7,6 +7,7 @@ export const Profile = ({username, tag, location, avatar, stats}) => {
                     src={avatar}
                     alt="User avatar"
                     class="avatar"
+                    width="250px"
                 />
                 <p class="name">{username}</p>
                 <p class="tag">@{tag}</p>
@@ -15,16 +16,16 @@ export const Profile = ({username, tag, location, avatar, stats}) => {
 
             <ul class="stats">
                 <li>
-                    <span class="label">{stats.followers }</span>
-                    <span class="quantity">1000</span>
+                    <span class="label">Followers</span>
+                    <span class="quantity">{stats.followers }</span>
                 </li>
                 <li>
-                    <span class="label">{stats.views }</span>
-                    <span class="quantity">2000</span>
+                    <span class="label">Views</span>
+                    <span class="quantity">{stats.views }</span>
                 </li>
                 <li>
-                    <span class="label">{stats.likes }</span>
-                    <span class="quantity">3000</span>
+                    <span class="label">Likes</span>
+                    <span class="quantity">{stats.likes }</span>
                 </li>
             </ul>
         </div>
