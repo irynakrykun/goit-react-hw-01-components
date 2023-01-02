@@ -1,0 +1,15 @@
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #2a2a2a;
+  text-align: center;
+}
+table th {
+  color: aqua;
+  background-color: brown;
+}
+table {
+  border: 1px solid black;
+  margin: auto;
+  width: 850px;
+}

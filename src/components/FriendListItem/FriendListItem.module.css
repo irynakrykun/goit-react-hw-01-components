@@ -1,1 +1,20 @@
-
+.statusOnline,
+.statusOffline {
+  background-color: rgb(0, 255, 106);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  text-align: center;
+}
+.statusOffline {
+  background-color: rgb(255, 64, 0);
+}
+.item {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  border: solid 1px black;
+  box-shadow: 1px 4px 6px;
+  text-align: center;
+  border-radius: 4px;
+}

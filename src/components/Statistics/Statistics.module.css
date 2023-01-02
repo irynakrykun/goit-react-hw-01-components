@@ -1,0 +1,28 @@
+.statistics {
+  margin-top: 25px;
+}
+
+.title {
+  font-size: 20px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.statList {
+  display: flex;
+
+  justify-content: center;
+  list-style: none;
+}
+.item {
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  background-color: rgba(28, 188, 232, 0.991);
+}
+.percentage {
+  color: rgb(165, 42, 157);
+}
