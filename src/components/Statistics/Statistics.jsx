@@ -1,8 +1,8 @@
 import propTypes from 'prop-types';
-export const Statistics = (stats, title) => {
+export const Statistics = ({ stats, title }) => {
   return (
     <section className="statistics">
-      {title && <h2 className="title">{title}</h2>}
+      {<h2 className="title">{title}</h2>}
       <ul className="statList">
         {stats.map(({ id, label, percentage }) => {
           return (
